@@ -28,6 +28,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    row-gap: 3rem;
 }
 
 .col{
@@ -42,6 +43,7 @@ header{
     top: 0%;
     right: 0%;
     left: 0%;
+    z-index: 2;
 }
 
 li{
@@ -128,11 +130,20 @@ main span::after{
     content: "\20AC";
 }
 
-.price>span:first-child{
-    font-weight: bold;
-    color: red;
-}
 
 .price>span:last-child{
     text-decoration: line-through;
+    color: grey;
+}
+
+.price>span:first-child{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
 }
