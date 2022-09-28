@@ -68,3 +68,71 @@ header nav>div:last-child{
     text-align: right;
 }
 
+main{
+    padding: 5rem 0;
+}
+
+div.img-container{
+    position: relative;
+}
+
+img.transiction{
+    display: none;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover img.transiction{
+    display: block;
+}
+
+.heart{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart:hover{
+    color: red;
+}
+
+div.img-flags{
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+}
+
+.badje{
+    background-color: green;
+    margin-right: .2rem;
+    display: inline-block;
+    padding: .4rem;
+    font-size: .7rem;
+    color: white;
+}
+
+.discount.badje{
+    background-color: red;
+}
+
+main span::after{
+    content: "\20AC";
+}
+
+.price>span:first-child{
+    font-weight: bold;
+    color: red;
+}
+
+.price>span:last-child{
+    text-decoration: line-through;
+}
