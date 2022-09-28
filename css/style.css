@@ -27,6 +27,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .col{
@@ -34,8 +35,13 @@ body{
     flex-shrink: 0;
 }
 
-header, footer{
+header{
+    background-color: orange;
     color: white;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
 }
 
 li{
@@ -46,5 +52,19 @@ li{
 a{
     color: white;
     text-decoration: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.logo{
+    margin: auto;
+    width: 50%;
+}
+
+header nav>div:last-child{
+    text-align: right;
 }
 
