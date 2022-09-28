@@ -66,7 +66,7 @@ img{
     width: 50%;
 }
 
-header nav>div:last-child{
+nav>div:last-child{
     text-align: right;
 }
 
@@ -146,4 +146,13 @@ footer{
     background-color: black;
     color: white;
     margin-top: 2rem;
+}
+
+h5, h6{
+    margin-bottom: .2rem;
+}
+
+footer div.col:first-child a{
+    font-size: .5rem;
+    margin-right: .2rem;
 }
